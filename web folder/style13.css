@@ -1,0 +1,47 @@
+
+body{
+    background:url(background.jpg);
+    background-size:1500px;
+    background-repeat: no-repeat;
+}
+.left-logo{
+    width: 90px;
+    border: 1px solid green;
+    float: left;  
+}
+ a button{
+    border: 1px  none;
+    text-align: center;
+    position: relative;
+    left: 200px;
+    top:20px;
+    width: 10%;
+    margin: 1%;
+    height: 30px;
+    background-color:transparent;
+    color: antiquewhite;
+    cursor: pointer;
+}
+ a button:hover 
+{color: green;
+text-decoration: underline;
+}
+.text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    font-size: large;
+}
+.heading{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    right:50px;
+    font-size: 40px;
+}
+
