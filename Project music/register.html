@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background-color: #f4f4f4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .menu {
+      border: 2px solid #333;
+      width: 360px;
+      height: auto;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+    }
+    .form-container {
+      padding: 20px;
+    }
+    .input-group {
+      margin-bottom: 20px;
+    }
+    .firstname,
+    .secondname,
+    .password,
+    .email {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+    .gap {
+      margin-left: 10px;
+      vertical-align: middle;
+    }
+    .checkbox {
+      margin-right: 5px;
+    }
+    .btn {
+      padding: 12px 24px;
+      background-color: #4caf50;
+      border: none;
+      border-radius: 4px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+    .btn:hover {
+      background-color: #3cce44;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu">
+    <div class="form-container">
+      <h1 style="color: #333;">REGISTER YOURSELF</h1>
+      <div class="input-group">
+        <input
+          name="name"
+          placeholder="Enter your first name"
+          class="firstname"
+        />
+        <span class="gap">
+          <input
+            name="name"
+            placeholder="Enter your second name"
+            class="secondname"
+          />
+        </span>
+      </div>
+      <div class="input-group">
+        <input
+          type="password"
+          placeholder="Enter your password"
+          class="password"
+        />
+      </div>
+      <div class="input-group">
+        <input
+          name="email"
+          placeholder="Enter your email"
+          class="email"
+        />
+      </div>
+      <div class="input-group">
+        <label style="display: flex; align-items: center;">
+          <input type="checkbox" class="checkbox" />
+          <span style="margin-left: 5px;">Remember me</span>
+        </label>
+      </div>
+      <div class="input-group">
+        <a href="#" style="color: #4caf50; text-decoration: none;">Forgot password?</a>
+      </div>
+      <button class="btn">Create Account</button>
+    </div>
+  </div>
+</body>
+</html>
